@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int monthDay[15]={0,31,28,31,30,31,30,31,31,30,31,30,31};
-int count=1000;
-int year=2014;
-int month=11;
-int day=9;
+int count=3000;
+int year=2016;
+int month=9;
+int day=1;
 bool judgeBissextile(int year)
 {
     if(year%400==0)
